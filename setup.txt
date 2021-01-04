@@ -1,0 +1,27 @@
+# Functions
+f =exp(-(x - mu1)^2 / (2 * (sig1)^2)) / ((sig1) * sqrt(2 * pi))
+f =exp(-(x - muB)^2 / (2 * (sigB)^2)) / ((sigB) * sqrt(2 * pi))
+f =exp(-(x - muC)^2 / (2 * (sigC)^2)) / ((sigC) * sqrt(2 * pi))
+f =exp(-(x - muD)^2 / (2 * (sigD)^2)) / ((sigD) * sqrt(2 * pi))
+
+# Variable
+var = x
+
+# Constants
+cte = mu1 = 0.0
+cte = sig1 = 0.447213595
+cte = muB = 0.0
+cte = sigB = 1.000000
+cte = muC = 0.0
+cte = sigC = 2.236067977
+cte = muD = -2.0
+cte = sigD = 0.707106781
+
+# Limits
+x_min = -6.0
+x_max =  6.0
+y_min = -0.01
+y_max = 1.05
+
+# Number of points to plot
+Npts = 1200

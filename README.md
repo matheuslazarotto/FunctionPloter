@@ -10,6 +10,8 @@ number of points to plot.
 
  `var = x`
  
+ `cte = pi = 3.14159265359`
+ 
  `cte = a = 2.0`
  
  `x_min = -6.0`

@@ -1,18 +1,25 @@
-## FunctionPloter
+# FunctionPloter
 A simple application to plot functions (wrapper for ExprTkr)
 
-# Instructions:
+## Instructions:
 The functions expressions (strings) must be provided in an external file (preferably name 'setup.txt') along with any defined constat, plot limits and 
 number of points to plot.
 
-# Example
+## Example
 `f = sin(a * pi * x)
+
  var = x
+ 
  cte = a = 2.0
+ 
  x_min = -6.0
+ 
  x_max =  6.0
+ 
  y_min = -0.01
+ 
  y_max = 1.05
+ 
  nPts = 1200`
 
 !NOTE! The setup flags names (f, cte, var...) CANNOT be altered, otherwise requiring changes in the code, only the right side of it, i.e. the function 

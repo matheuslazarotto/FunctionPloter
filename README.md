@@ -6,21 +6,21 @@ The functions expressions (strings) must be provided in an external file (prefer
 number of points to plot.
 
 ## Example
-`f = sin(a * pi * x)
+`f = sin(a * pi * x)`
 
- var = x
+ `var = x`
  
- cte = a = 2.0
+ `cte = a = 2.0`
  
- x_min = -6.0
+ `x_min = -6.0`
  
- x_max =  6.0
+ `x_max =  6.0`
  
- y_min = -0.01
+ `y_min = -0.01`
  
- y_max = 1.05
+ `y_max = 1.05`
  
- nPts = 1200`
+ `nPts = 1200`
 
 !NOTE! The setup flags names (f, cte, var...) CANNOT be altered, otherwise requiring changes in the code, only the right side of it, i.e. the function 
 expressions, constant names and its values, limits value and number of points.
